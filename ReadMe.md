@@ -8,7 +8,7 @@ conda env create -f environment_transformer.yml
 ```
 
 # Attacked Dataset
-The used datasets are sampled from ImageNet. Download them form [here](url).
+The used datasets are sampled from ImageNet. Unzip clean_resized_images.zip to **ROOT_PATH** of utils.py.
 
 # Models
 ViTs models from [timm](https://github.com/rwightman/pytorch-image-models): 
