@@ -27,10 +27,10 @@ CNNs and robustly trained CNNs from [TI](https://github.com/dongyp13/Translation
 Change **ROOT_PATH** of utils.py.
 ### attack
 ```
-python our_attack.py --attack OurAlgorithm --gpu 0 --batch_size 1 --model_name vit_large_patch16_224 --filename_prefix yours 
+python our_attack.py --attack OurAlgorithm --gpu 0 --batch_size 1 --model_name vit_base_patch16_224 --filename_prefix yours 
 ```
 * attack: the attack method, OurAlgorithm, OurAlgorithm_MI or OurAlgorithm_SGM
-* model_name: white-box name, vit_large_patch16_224, levit_256, cait_s24_224, tnt_s_patch16_224
+* model_name: white-box model name, vit_base_patch16_224, pit_b_224, cait_s24_224, visformer_small
 * filename_prefix: additional names for the output file
 
 ### evaluate
