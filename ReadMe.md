@@ -41,11 +41,13 @@ sh run_evaluate.sh gpu model_{model_name}=method_{attack}-{filename_prefix}
 # Citation
 If you use our method for attacks in your research, please consider citing
 ```
-@article{Wei2021TowardsTA,
-  title={Towards Transferable Adversarial Attacks on Vision Transformers},
-  author={Zhipeng Wei and Jingjing Chen and Micah Goldblum and Zuxuan Wu and Tom Goldstein and Yu-Gang Jiang},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2109.04176}
+@inproceedings{wei2022towards,
+  title={Towards transferable adversarial attacks on vision transformers},
+  author={Wei, Zhipeng and Chen, Jingjing and Goldblum, Micah and Wu, Zuxuan and Goldstein, Tom and Jiang, Yu-Gang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={3},
+  pages={2668--2676},
+  year={2022}
 }
 ```
