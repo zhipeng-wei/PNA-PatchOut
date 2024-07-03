@@ -1,5 +1,39 @@
-# AAAI-2022 Paper
-Towards Transferable Adversarial Attacks on Vision Transformers [pdf](https://ojs.aaai.org/index.php/AAAI/article/download/20169/19928)
+<div align="center">
+
+<h1><a href="https://ojs.aaai.org/index.php/AAAI/article/download/20169/19928">Towards Transferable Adversarial Attacks on Vision Transformers</a></h1>
+
+**AAAI 2022**
+
+<h1><a href="https://ieeexplore.ieee.org/abstract/document/10319323">Towards transferable adversarial attacks on image and video transformers</a></h1>
+
+**IEEE Transactions on Image Processing ( Volume: 32)**
+
+</div>
+
+If you use our method for attacks in your research, please consider citing
+```
+@inproceedings{wei2022towards,
+  title={Towards transferable adversarial attacks on vision transformers},
+  author={Wei, Zhipeng and Chen, Jingjing and Goldblum, Micah and Wu, Zuxuan and Goldstein, Tom and Jiang, Yu-Gang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={3},
+  pages={2668--2676},
+  year={2022}
+}
+@article{wei2023towards,
+  title={Towards transferable adversarial attacks on image and video transformers},
+  author={Wei, Zhipeng and Chen, Jingjing and Goldblum, Micah and Wu, Zuxuan and Goldstein, Tom and Jiang, Yu-Gang and Davis, Larry S},
+  journal={IEEE Transactions on Image Processing},
+  volume={32},
+  pages={6346--6358},
+  year={2023},
+  publisher={IEEE}
+}
+```
+# Introduction
+To do.
+
 
 # Environment
 Recover the environment by
@@ -38,16 +72,3 @@ python our_attack.py --attack OurAlgorithm --gpu 0 --batch_size 1 --model_name v
 sh run_evaluate.sh gpu model_{model_name}=method_{attack}-{filename_prefix}
 ```
 
-# Citation
-If you use our method for attacks in your research, please consider citing
-```
-@inproceedings{wei2022towards,
-  title={Towards transferable adversarial attacks on vision transformers},
-  author={Wei, Zhipeng and Chen, Jingjing and Goldblum, Micah and Wu, Zuxuan and Goldstein, Tom and Jiang, Yu-Gang},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={36},
-  number={3},
-  pages={2668--2676},
-  year={2022}
-}
-```
